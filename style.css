@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+html {
+  font-size: 62.5%;
+}
+.grid--3-col {
+  display: grid;
+  max-width: 100rem;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid black;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4.8rem 3.2rem;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 78%;
+}
+
+h2 {
+  font-size: 3.4rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.btn:link,
+.btn:visited {
+  font-family: "Lexend Deca";
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: #fff;
+  display: inline-block;
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+}
+.btn-1 a {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-2 a {
+  color: hsl(184, 100%, 22%);
+}
+.btn-3 a {
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover,
+.btn:active {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.column-container-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.column-container-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.column-container-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  position: absolute;
+  color: #555;
+  bottom: 1rem;
+}
+
+.attribution a {
+  color: hsl(31, 77%, 52%);
+}
